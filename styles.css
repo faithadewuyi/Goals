@@ -6,7 +6,7 @@ body {
   line-height: 1.6;
   /* background: url(images/constellations.jpg) center/cover no-repeat fixed; */
   background-color: #D2B48C;
-  overflow-x: hiden;;
+  overflow-x: hidden;;
 }
 
 h1, h2, p {
@@ -54,7 +54,7 @@ header p {
 
 .data-info img{
   border-radius: 50%;
-  max-width: 300px
+  max-width: 350px;
 }
 
 #aboutme h1 {
@@ -93,7 +93,7 @@ header p {
   transition: transform 0.3s, box-shadow 0.3s;
    width:450px; 
    height: 200px;
-   margin: auto;
+   margin: 10px auto 0px;
 }
 
 .goal-card:hover {
@@ -178,6 +178,9 @@ footer#links p {
 
 /* Responsive Design */
 @media (min-width: 768px) {
+  body{
+    overflow-x: hidden;
+  }
   .goal-cards-container {
     grid-template-columns: 1fr 1fr;
     margin: 2rem;
@@ -186,6 +189,7 @@ footer#links p {
 }
 
 @media (min-width: 1024px) {
+  
   .goal-cards-container {
     grid-template-columns: 1fr 1fr 1fr;
    
